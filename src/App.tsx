@@ -7,6 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
   console.log(import.meta.env.VITE_API_URL)
   console.log(import.meta.env.DEV);
+  console.log(import.meta.env)
 
   return (
     <>
