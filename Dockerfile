@@ -11,6 +11,7 @@ COPY src ./src
 COPY public ./public
 COPY vite.config.ts ./
 COPY index.html ./
+COPY .env ./
 
 RUN npm run build
 
